@@ -34,7 +34,12 @@ def findHyp(a,b):
     legSum = leg1+leg2
     print("The length of the hypotenuse is:")
     simp(legSum)
-
+def findLeg(a,c):
+    legA = a**2
+    hyp = c**2
+    legB = hyp - legA
+    print("The length of the leg is:")
+    simp(legB)
 
 #if you want to find the length of hypotenuse:
 #type "findHyp()"
@@ -45,6 +50,18 @@ def findHyp(a,b):
 #type "simp()"
 #type the value inside the square root inside the ()
 
-#Type here v
+#if you want to find the length of a leg
+#Type "findLeg()"
+#In the () type the value of the first leg
+#then a comma
+#then the value of the hypotenuse
 
+
+#Type here v
+simp(27)
+print("-----------")
+findHyp(5,5)
+print("-----------")
+findLeg(5,7)
+print("-----------")
 #Type here ^
