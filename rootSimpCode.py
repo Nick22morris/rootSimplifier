@@ -1,5 +1,4 @@
 import math
-userInput = 10
 def simp(input):
     root = 0.0
     rootMod = 0
@@ -33,7 +32,19 @@ def findHyp(a,b):
     leg1 = a**2
     leg2 = b**2
     legSum = leg1+leg2
-    print("The lenth of the hypotenuse is:")
+    print("The length of the hypotenuse is:")
     simp(legSum)
 
-findHyp(9,7)
+
+#if you want to find the length of hypotenuse:
+#type "findHyp()"
+#Inside type the value of leg A
+#then a comma then the value of leg B
+
+#If you want to simplify a square root:
+#type "simp()"
+#type the value inside the square root inside the ()
+
+#Type here v
+
+#Type here ^
