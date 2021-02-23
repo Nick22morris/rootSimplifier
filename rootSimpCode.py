@@ -58,10 +58,10 @@ def findLeg(a,c):
 
 
 #Type here v
-simp(27)
+simp(1)
 print("-----------")
-findHyp(5,5)
+findHyp(1,1)
 print("-----------")
-findLeg(5,7)
+findLeg(1,2)
 print("-----------")
 #Type here ^
