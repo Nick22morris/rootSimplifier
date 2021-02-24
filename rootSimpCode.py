@@ -45,29 +45,13 @@ def unsimp(out, inner):
     tot = outRound * inner
     print(f"the original number was {tot}")
 
-#if you want to find the length of hypotenuse:
-#type "findHyp()"
-#Inside type the value of leg A
-#then a comma then the value of leg B
-
-#If you want to simplify a square root:
-#type "simp()"
-#type the value inside the square root inside the ()
-
-#if you want to find the length of a leg
-#Type "findLeg()"
-#In the () type the value of the first leg
-#then a comma
-#then the value of the hypotenuse
-
-
 #Type here v
-simp(24) #simplifies square root
+simp(30) #simplifies square root
 print("-----------")
-unsimp(2,6) #unsimplifies square root. First value is outside, second is inside.
+unsimp(3,54) #unsimplifies square root. First value is outside, second is inside.
 print("-----------")
 findHyp(1,1) #finds hypotenuse, each value is a leg
 print("-----------")
-findLeg(6,10) #finds other leg (in right triangle), first value is leg, second is hypotenuse
+findLeg(3,12) #finds other leg (in right triangle), first value is leg, second is hypotenuse
 print("-----------")
 #Type here ^
