@@ -44,7 +44,11 @@ def unsimp(out, inner):
     outRound = out**2
     tot = outRound * inner
     print(f"the original number was {tot}")
-
+def legHyp45(leg):
+    print(f"Both legs are {leg} while the hypotenuse is {leg} √2")
+def legHyp3060(leg):
+    hip = leg*2
+    print(f"The second leg is {leg}√3 while the hypotenuse is {hip})")
 #Type here v
 simp(30) #simplifies square root
 print("-----------")
@@ -53,5 +57,9 @@ print("-----------")
 findHyp(1,1) #finds hypotenuse, each value is a leg
 print("-----------")
 findLeg(3,12) #finds other leg (in right triangle), first value is leg, second is hypotenuse
+print("-----------")
+legHyp45(4) #finds the leg and hypotenuse in a 45-45-90 triangle; value entered is leg
+print("-----------")
+legHyp3060(12) #finds the value of the other leg and hypotenuse in a 30-60-90 triangle; enter value of shorter leg
 print("-----------")
 #Type here ^
