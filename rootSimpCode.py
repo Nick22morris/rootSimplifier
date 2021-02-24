@@ -66,5 +66,4 @@ print("-----------")
 legHyp3060(12) #finds the value of the other leg and hypotenuse in a 30-60-90 triangle; enter value of shorter leg
 print("-----------")
 legs3060(11) #finds the length of the legs, the input is the hypotenuse
-print("-----------")
 #Type here ^
