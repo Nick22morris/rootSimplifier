@@ -40,6 +40,10 @@ def findLeg(a,c):
     legB = hyp - legA
     print("The length of the leg is:")
     simp(legB)
+def unsimp(out, inner):
+    outRound = out**2
+    tot = outRound * inner
+    print(f"the original number was {tot}")
 
 #if you want to find the length of hypotenuse:
 #type "findHyp()"
@@ -58,10 +62,12 @@ def findLeg(a,c):
 
 
 #Type here v
-simp(1)
+simp(24) #simplifies square root
 print("-----------")
-findHyp(1,1)
+unsimp(2,6) #unsimplifies square root. First value is outside, second is inside.
 print("-----------")
-findLeg(1,2)
+findHyp(1,1) #finds hypotenuse, each value is a leg
+print("-----------")
+findLeg(6,10) #finds other leg (in right triangle), first value is leg, second is hypotenuse
 print("-----------")
 #Type here ^
