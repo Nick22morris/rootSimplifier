@@ -49,6 +49,9 @@ def legHyp45(leg):
 def legHyp3060(leg):
     hip = leg*2
     print(f"The second leg is {leg}√3 while the hypotenuse is {hip})")
+def legs3060(h):
+    a = .5*h
+    print(f"The first leg is equal to {a}, while the second leg is {a}√3")
 #Type here v
 simp(30) #simplifies square root
 print("-----------")
@@ -62,4 +65,5 @@ legHyp45(4) #finds the leg and hypotenuse in a 45-45-90 triangle; value entered 
 print("-----------")
 legHyp3060(12) #finds the value of the other leg and hypotenuse in a 30-60-90 triangle; enter value of shorter leg
 print("-----------")
+legs3060(11)
 #Type here ^
