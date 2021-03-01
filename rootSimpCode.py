@@ -53,17 +53,17 @@ def legs3060(h):
     a = .5*h
     print(f"The first leg is equal to {a}, while the second leg is {a}√3")
 #Type here v
-simp(30) #simplifies square root
+simp(44) #simplifies square root
 print("-----------")
-unsimp(3,54) #unsimplifies square root. First value is outside, second is inside.
+unsimp(11,3) #unsimplifies square root. First value is outside, second is inside.
 print("-----------")
-findHyp(1,1) #finds hypotenuse, each value is a leg
+findHyp(6,6) #finds hypotenuse, each value is a leg
 print("-----------")
-findLeg(3,12) #finds other leg (in right triangle), first value is leg, second is hypotenuse
+findLeg(12,18) #finds other leg (in right triangle), first value is leg, second is hypotenuse
 print("-----------")
-legHyp45(4) #finds the leg and hypotenuse in a 45-45-90 triangle; value entered is leg
+legHyp45(588) #finds the leg and hypotenuse in a 45-45-90 triangle; value entered is leg
 print("-----------")
-legHyp3060(12) #finds the value of the other leg and hypotenuse in a 30-60-90 triangle; enter value of shorter leg
+legHyp3060(33) #finds the value of the other leg and hypotenuse in a 30-60-90 triangle; enter value of shorter leg
 print("-----------")
-legs3060(11) #finds the length of the legs, the input is the hypotenuse
+legs3060(28) #finds the length of the legs, the input is the hypotenuse
 #Type here ^
